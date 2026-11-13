@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Venice</title>
+  <meta name="description" content="A sample website about Venice.">
+  <style>
+    :root { --bg:#fbf7f0; --ink:#1d2b36; --accent:#b4432f; --water:#1f5f7a; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#10181e; --ink:#e9e4da; --accent:#e07a63; --water:#6fb3cf; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.6 Georgia, "Times New Roman", serif; }
+    header { text-align:center; padding:6rem 1rem 4rem;
+      background:linear-gradient(180deg, var(--water), transparent 140%); }
+    h1 { font-size:clamp(2.4rem, 8vw, 4.5rem); margin:0; letter-spacing:.02em; }
+    header p { font-style:italic; margin:.5rem 0 0; }
+    main { max-width:44rem; margin:0 auto; padding:2rem 1rem 4rem; }
+    h2 { color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:.2rem; }
+    ul { padding-left:1.2rem; }
+    footer { text-align:center; padding:2rem 1rem; opacity:.7; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Venice</h1>
+    <p>La Serenissima, the city built on water</p>
+  </header>
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>Venice spreads across 118 small islands in a lagoon in northern Italy, linked by more than 400 bridges and divided by about 150 canals. There are no cars. You get around on foot or by boat.</p>
+    </section>
+    <section>
+      <h2>Places to see</h2>
+      <ul>
+        <li><strong>St Mark's Square</strong>, with the Basilica and the Campanile</li>
+        <li><strong>The Grand Canal</strong>, best seen from a vaporetto</li>
+        <li><strong>Rialto Bridge</strong> and the nearby market</li>
+        <li><strong>Murano and Burano</strong>, for glass and colourful houses</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Good to know</h2>
+      <p>Walk away from the main routes and the city gets quiet fast. Wear comfortable shoes, and expect to get lost at least once.</p>
+    </section>
+  </main>
+  <footer>A sample page hosted on GitHub Pages.</footer>
+</body>
+</html>
